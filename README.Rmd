@@ -41,10 +41,11 @@ models (`asym()`) and via GEE for non-Gaussian models (`asym_gee()`).
 
 ## Installation
 
-`panelr` is now available via CRAN.
+
 
 ```{r eval = FALSE}
-install.packages("panelr")
+require(devtools)
+install_github("jacob-long/panelr")
 ```
 
 ## Usage
